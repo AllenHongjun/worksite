@@ -1,0 +1,149 @@
+.main-top{
+	margin-bottom: 60px;
+}
+.main-top span{
+	width: 250px;
+	height: 180px;
+	margin:0 5px;
+}
+.content{
+	position: relative;
+}
+.content p{
+	text-indent: 0;
+	margin-left: 25px;
+}
+.content h1{
+	font-size: 30px;
+	color: #424141;
+	font-weight: normal;
+	margin-left: 20px;
+}
+.back{
+	color: #424141;
+	position: absolute;
+	right: 25px;
+	top: 220px;
+}
+
+@media(max-width:768px){
+	.main-top{
+		width: 5.3rem;
+		margin: 0rem auto;
+	}
+	.main-top span{
+		width: 48%;
+		height: auto;
+		margin: 0 auto 0.15rem;
+		line-height: 0;
+	}
+	.main-top span img{
+		display: block;
+		width: 95%;
+	}
+	.content h1{
+		font-size: 0.38rem;
+		width: 5.1rem;
+		margin: 0.3rem auto 0.3rem;
+	}
+	.content p{
+		text-indent: 2em;
+	}
+	.text{
+		padding-bottom: 0.8rem;
+	}
+	.back{
+		font-size: 0.2rem;
+		right: 0.34rem;
+		top: 95%;
+	}
+}
+
+/*产品列表*/
+@media(max-width:768px){
+	.banner{
+		display: none;
+	}
+}
+
+.bg{
+	margin: 0 auto;
+	background: none;
+}
+.navBar{
+	display: none;
+}
+.menuBar{
+	display: none;
+}
+.content2{
+	width: 990px;
+	height: auto;
+	margin-top: 12px;
+	background: url(../img/products/top-bg.jpg) no-repeat center top;
+	background-color: #ebebeb;
+}
+.title{
+	width: 225px;
+	height: 70px;
+	margin: 25px auto 20px;
+	line-height: 0;
+}
+.list{
+	margin-left: 25px;
+}
+.list li{
+	float: left;
+	margin: 0 5px 70px;
+	list-style: none;
+	text-align: center;
+}
+.list li a{
+	display: block;
+	border: 2px solid #d3d3d3;
+	-moz-box-shadow:2px 2px 5px#d3d3d3;/*firefox*/  
+    -webkit-box-shadow:2px 2px 5px#d3d3d3;/*webkit*/  
+    box-shadow:2px 2px 5px #d3d3d3;/*opera或ie9*/  
+	border-radius: 2px;
+}
+
+@media(max-width:768px){
+	.bg{
+		width: 100%;
+		background: none;		
+	}
+	.navBar{
+		display: block;
+	}
+	.menuBar{
+		display: block;
+	}
+	.content2{
+		width: 100%;
+		margin-top:0;
+		background-image: none;
+	}
+	.title{
+		width: 2.3rem;
+		margin: 0.3rem auto 0rem;
+		line-height: 0;
+	}
+	.list{
+		margin: 0 auto;
+		width: 5.4rem;
+	}
+	.list li{
+		float: left;
+		width: 44%;
+		margin: 0 3% 0.3rem;
+		line-height: 0;
+		font-size: 0.2rem;
+	}
+	.list li a{
+		display: block;
+	} 
+	.list li span{
+		display: block;
+		margin-top: 0.1rem;
+	}
+}
