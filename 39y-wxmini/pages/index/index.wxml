@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+	<!--banner  开始-->
+	<view class="banner">
+		<image src="../../image/bg.jpg" class="bg"></image>
+		<navigator class="dl-btn" url="../exchange/exchange"><image src="../../image/dl-btn.jpg"></image></navigator>
+	</view>
+	<!--banner  结束-->
+	
+	<!--关注公众号  开始-->
+	<view>
+		<image src='{{scene}}' class="weixin" bindtap="previewImage"></image>
+	</view>
+	<!--关注公众号  结束-->
+	
+	<!--尾部  开始-->
+	<view>
+		<image src="../../image/footer.jpg" class="footer"></image>
+	</view>
+	<!--尾部  结束-->
+</view>

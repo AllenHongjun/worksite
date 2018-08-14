@@ -1,0 +1,68 @@
+/**index.wxss**/
+.container{
+	position: relative;
+	height: 1220rpx;
+	display:flex;
+	justify-content: center;
+	overflow: hidden;
+}
+.bg{
+	display:block;
+	width: 100%;
+	height:1668rpx;
+}
+.main{
+	position:absolute;
+	width:90%;
+	top:770rpx;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.key-box{
+	width: 630rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	border: 3px solid #0387ee;
+	background: #1051b9;
+	margin-bottom:0rpx;
+	/* padding-left: 40rpx; */
+	outline: none;
+	color: #fff;
+	text-align: center;
+	font-size: 30rpx;
+	border-radius: 36px;
+}
+.placeholder{
+	color: #fff;opacity:1;
+}
+.key-btn{
+	width: 630rpx;
+	margin-top: 35rpx;
+	border: none;
+	border-radius: 36px;
+	height: 90rpx;
+	line-height: 90rpx;
+	background:-webkit-linear-gradient(top,#fff54d,#f7b30d);
+	color: #8e3214;
+	font-size:34rpx;
+	font-weight: bold;
+}
+/*兑换说明*/
+.info{
+	width: 620rpx;
+	margin: 55rpx 0 30rpx;
+}
+.info rich-text{
+	color: #f3ee00;
+	font-size: 31rpx;
+	font-weight: bold;
+	/* margin-bottom:30rpx; */
+}
+.info text{
+	display:block;
+	color: #fff;
+	font-size: 26rpx;
+	margin-top: 20rpx;
+	line-height: 0.85rem;
+}

@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+	<image src="../../image/exchangeBg.jpg" class="bg" height="100%"></image>
+	<view class="main">
+		<input id="exchangeCode" type="text" value="" name="" placeholder="请输入兑换码" class="key-box" placeholder-class="placeholder"/>        
+		<button id="btnExchange" type="button" class="key-btn">兑换</button>
+		<view class="info">
+			<rich-text>兑换说明</rich-text>
+			<text>输入兑换码可获得金币、会员、道具等奖励。</text>	
+		</view>
+	</view>
+</view>
