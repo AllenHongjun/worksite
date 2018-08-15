@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/product/product",
+    "pages/user/user",
+    "pages/game-detail/game-detail",
+    "pages/game-list/game-list",
+    "pages/order-list/order-list",
+    "pages/order-result/order-result",
+    "pages/user-login/user-login"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f90",
+    "navigationBarTitleText": "交易中心",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#333",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/images/tabs/home.png",
+        "selectedIconPath": "assets/images/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "出售",
+        "iconPath": "assets/images/tabs/message.png",
+        "selectedIconPath": "assets/images/tabs/message-active.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "assets/images/tabs/profile.png",
+        "selectedIconPath": "assets/images/tabs/profile-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "assets/images/tabs/contact.png",
+        "selectedIconPath": "assets/images/tabs/contact-active.png"
+      }
+    ]
+  }
+}
