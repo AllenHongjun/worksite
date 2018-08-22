@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <navigator class='enter-item' url="/pages/login/login">
+       <van-button type="primary">去看效果</van-button>
+    </navigator>
+</view>
